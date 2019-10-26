@@ -4,7 +4,7 @@ const router = express.Router();
 router.get('/token', (req, res) => {
     res.json(
         {
-            token:'token'
+            data:'token'
         }
     );
 });
@@ -12,7 +12,7 @@ router.get('/token', (req, res) => {
 router.get('/refresh-token', (req, res) => {
     res.json(
         {
-            token:'refresh-token'
+            data:'refresh-token'
         }
     );
 });
@@ -20,7 +20,7 @@ router.get('/refresh-token', (req, res) => {
 router.get('/login', (req, res) => {
     res.json(
         {
-            token:'login'
+            data:'login'
         }
     );
 });
@@ -28,7 +28,7 @@ router.get('/login', (req, res) => {
 router.get('/sign-up', (req, res) => {
     res.json(
         {
-            token:'sign-up'
+            data:'sign-up'
         }
     );
 });
@@ -36,7 +36,23 @@ router.get('/sign-up', (req, res) => {
 router.get('/forgot-password', (req, res) => {
     res.json(
         {
-            token:'forgot-password'
+            data:'forgot-password'
+        }
+    );
+});
+
+router.get('/logout', (req, res) => {
+    res.json(
+        {
+            data:'logout'
+        }
+    );
+});
+
+router.get('/self', (req, res) => {
+    res.json(
+        {
+            data:'self'
         }
     );
 });
