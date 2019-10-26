@@ -43,5 +43,9 @@
 ##### Cloud
 
 ###### Keywords
+Angular 8, Node JS, Express JS, Mongo DB, Database, Authorization, Authentication, Unit test, Api's, File upload, JWT
+
 ###### References
+- Readme syntax (https://www.markdownguide.org/basic-syntax/)
 - Node JS Test cases (https://buddy.works/guides/how-automate-nodejs-unit-tests-with-mocha-chai)
+- Mongoose vs MongoClient (https://mongodb.com/blog/post/the-mean-stack-mistakes-youre-probably-making)
