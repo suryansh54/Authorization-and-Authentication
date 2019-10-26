@@ -26,11 +26,14 @@
 - angular-oauth2-oidc (https://github.com/manfredsteyer/angular-oauth2-oidc)
 
 ##### Back-end
+- dotenv (https://www.npmjs.com/package/dotenv)
 - express (https://expressjs.com)
 - pm2 (http://pm2.keymetrics.io)
 - jwt (https://jwt.io)
 - multer (https://www.npmjs.com/package/multer)
 - joi (https://www.npmjs.com/package/@hapi/joi)
+- mocha (https://mochajs.org/)
+- chai (https://www.npmjs.com/package/chai)
 
 ##### Database
 - mongoose (https://mongoosejs.com/) OR
@@ -41,3 +44,4 @@
 
 ###### Keywords
 ###### References
+- Node JS Test cases (https://buddy.works/guides/how-automate-nodejs-unit-tests-with-mocha-chai)
