@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start server.js"
+    "start": "pm2 start server.js --watch",
+    "stop": "pm2 stop server.js"
   },
   "author": "Suryansh Srivastava",
   "license": "ISC",
