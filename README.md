@@ -1,5 +1,5 @@
-### Authorization and Authentication
-##### Technology used
+## Authorization and Authentication
+### Technology used
 - Node JS
 - Express JS
 - Mongo DB
@@ -10,5 +10,7 @@
 - angular-oauth2-oidc (https://github.com/manfredsteyer/angular-oauth2-oidc)
 
 ##### Back-end
-- express (https://expressjs.com/)
-- pm2 (http://pm2.keymetrics.io/)
+- express (https://expressjs.com)
+- pm2 (http://pm2.keymetrics.io)
+- jwt (https://jwt.io)
+- multer (https://www.npmjs.com/package/multer)
